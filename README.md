@@ -138,26 +138,6 @@ Configured private subnet internet access using NAT Gateway.
 
 ---
 
-# 📸 Screenshots
-
-## Jenkins Pipeline
-
-(Add screenshot here)
-
-## Grafana Dashboard
-
-(Add screenshot here)
-
-## EKS Cluster
-
-(Add screenshot here)
-
-## Kubernetes Pods
-
-(Add screenshot here)
-
----
-
 # 🚀 Future Enhancements
 
 * Horizontal Pod Autoscaler (HPA)
