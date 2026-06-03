@@ -1,9 +1,236 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>ShopSphere CICD</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopSphere - DevOps Platform</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      background:linear-gradient(135deg,#2563eb,#7c3aed);
+      padding:20px 60px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    header h1{
+      font-size:28px;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin-left:25px;
+      font-weight:bold;
+    }
+
+    .hero{
+      text-align:center;
+      padding:100px 20px;
+    }
+
+    .hero h2{
+      font-size:52px;
+      margin-bottom:20px;
+    }
+
+    .hero p{
+      max-width:800px;
+      margin:auto;
+      font-size:20px;
+      color:#cbd5e1;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:30px;
+      background:#38bdf8;
+      color:#0f172a;
+      padding:14px 28px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    .section{
+      padding:70px 60px;
+    }
+
+    .section-title{
+      text-align:center;
+      font-size:38px;
+      margin-bottom:50px;
+      color:#38bdf8;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:#1e293b;
+      padding:25px;
+      border-radius:14px;
+      border:1px solid #334155;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-8px);
+      border-color:#38bdf8;
+    }
+
+    .card h3{
+      color:#38bdf8;
+      margin-bottom:15px;
+    }
+
+    .architecture{
+      background:#111827;
+      padding:40px;
+      border-radius:14px;
+      text-align:center;
+      font-size:20px;
+      line-height:2;
+    }
+
+    footer{
+      background:#020617;
+      padding:25px;
+      text-align:center;
+      color:#94a3b8;
+    }
+
+  </style>
+
 </head>
 <body>
-  <h1>Fully Automated Kubernetes CI/CD 🚀</h1>
+
+<header>
+
+  <h1>🚀 ShopSphere</h1>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Architecture</a>
+    <a href="#">Monitoring</a>
+    <a href="#">CI/CD</a>
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <h2>Production Grade AWS DevOps Platform</h2>
+
+  <p>
+    Complete cloud-native DevOps project implementing CI/CD automation,
+    Docker containerization, AWS EKS Kubernetes deployment,
+    Prometheus monitoring, and Grafana dashboards.
+  </p>
+
+  <a class="btn" href="#">Live on Kubernetes 🚀</a>
+
+</section>
+
+<section class="section">
+
+  <h2 class="section-title">🔥 Technologies Used</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>AWS Cloud</h3>
+      <p>VPC, EC2, ECR, EKS, IAM, Load Balancer, NAT Gateway</p>
+    </div>
+
+    <div class="card">
+      <h3>Jenkins CI/CD</h3>
+      <p>Automated build, Docker image creation, and Kubernetes deployment.</p>
+    </div>
+
+    <div class="card">
+      <h3>Docker</h3>
+      <p>Containerized application deployment using Docker containers.</p>
+    </div>
+
+    <div class="card">
+      <h3>Kubernetes</h3>
+      <p>Deployments, Services, Scaling, Self-Healing, Rolling Updates.</p>
+    </div>
+
+    <div class="card">
+      <h3>Monitoring</h3>
+      <p>Prometheus and Grafana dashboards for observability and metrics.</p>
+    </div>
+
+    <div class="card">
+      <h3>DevOps Automation</h3>
+      <p>Fully automated end-to-end cloud-native CI/CD pipeline.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2 class="section-title">☁️ Project Architecture</h2>
+
+  <div class="architecture">
+
+    Developer Pushes Code <br>
+    ⬇️ <br>
+
+    GitHub Repository <br>
+    ⬇️ <br>
+
+    Jenkins CI/CD Pipeline <br>
+    ⬇️ <br>
+
+    Docker Build & AWS ECR Push <br>
+    ⬇️ <br>
+
+    Amazon EKS Kubernetes Cluster <br>
+    ⬇️ <br>
+
+    Kubernetes Deployments & Pods <br>
+    ⬇️ <br>
+
+    AWS Load Balancer <br>
+    ⬇️ <br>
+
+    Prometheus + Grafana Monitoring
+
+  </div>
+
+</section>
+
+<footer>
+
+  🚀 Built by Prajwal Ahirrao | Production Grade DevOps Project
+
+</footer>
+
 </body>
 </html>
+```
+
